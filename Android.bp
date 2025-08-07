@@ -5,202 +5,6 @@
 //
 
 cc_library_shared {
-    name: "android.frameworks.stats-V1-ndk_platform",
-    shared_libs: ["android.frameworks.stats-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.common-V1-ndk_platform",
-    shared_libs: ["android.hardware.common-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.common-V2-ndk_platform",
-    shared_libs: ["android.hardware.common-V2-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.common.fmq-V1-ndk_platform",
-    shared_libs: ["android.hardware.common.fmq-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.graphics.common-V1-ndk_platform",
-    shared_libs: ["android.hardware.graphics.common-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.graphics.common-V2-ndk_platform",
-    shared_libs: ["android.hardware.graphics.common-V2-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.authsecret-V1-ndk_platform",
-    shared_libs: ["android.hardware.authsecret-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.automotive.occupant_awareness-V1-ndk_platform",
-    shared_libs: ["android.hardware.automotive.occupant_awareness-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.gnss-V1-ndk_platform",
-    shared_libs: ["android.hardware.gnss-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.health.storage-V1-ndk_platform",
-    shared_libs: ["android.hardware.health.storage-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.identity-V2-ndk_platform",
-    shared_libs: ["android.hardware.identity-V2-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.identity-V3-ndk_platform",
-    shared_libs: ["android.hardware.identity-V3-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.keymaster-V2-ndk_platform",
-    shared_libs: ["android.hardware.keymaster-V2-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.keymaster-V3-ndk_platform",
-    shared_libs: ["android.hardware.keymaster-V3-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.light-V1-ndk_platform",
-    shared_libs: ["android.hardware.light-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.memtrack-V1-ndk_platform",
-    shared_libs: ["android.hardware.memtrack-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.oemlock-V1-ndk_platform",
-    shared_libs: ["android.hardware.oemlock-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.power-V1-ndk_platform",
-    shared_libs: ["android.hardware.power-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.power-V2-ndk_platform",
-    shared_libs: ["android.hardware.power-V2-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.power.stats-V1-ndk_platform",
-    shared_libs: ["android.hardware.power.stats-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.rebootescrow-V1-ndk_platform",
-    shared_libs: ["android.hardware.rebootescrow-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.security.keymint-V1-ndk_platform",
-    shared_libs: ["android.hardware.security.keymint-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.security.secureclock-V1-ndk_platform",
-    shared_libs: ["android.hardware.security.secureclock-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.security.sharedsecret-V1-ndk_platform",
-    shared_libs: ["android.hardware.security.sharedsecret-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.vibrator-V1-ndk_platform",
-    shared_libs: ["android.hardware.vibrator-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.vibrator-V2-ndk_platform",
-    shared_libs: ["android.hardware.vibrator-V2-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.hardware.weaver-V1-ndk_platform",
-    shared_libs: ["android.hardware.weaver-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
-    name: "android.system.keystore2-V1-ndk_platform",
-    shared_libs: ["android.system.keystore2-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
-
-cc_library_shared {
     name: "android.hardware.gnss@1.0_types",
     srcs: ["interfaces/gnss/1.0/types.cpp"],
     shared_libs: ["android.hardware.gnss@1.0"],
@@ -294,6 +98,14 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+        "libcutils",
+        "libexpat",
+        "liblog",
+        "libtinyalsa",
+        "libutils",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v34/arm/libaudioroute-v34.so"],
@@ -303,7 +115,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_library {
@@ -322,6 +133,10 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+        "liblog",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v33/arm/libbase-v33.so"],
@@ -331,25 +146,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbinder-v32",
-    vendor: true,
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["vndk/v32/arm/libbinder-v32.so"],
-        },
-        android_arm64: {
-            srcs: ["vndk/v32/arm64/libbinder-v32.so"],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_library {
@@ -437,7 +233,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_library {
@@ -456,6 +251,11 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libbase",
+        "libc++",
+        "liblog",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v29/arm/libcutils-v29.so"],
@@ -465,7 +265,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_library {
@@ -510,6 +309,14 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libbase",
+        "libc++",
+        "libcutils",
+        "liblog",
+        "libutils",
+        //"libvndksupport", not recovery_available
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v32/arm/libhidlbase-v32.so"],
@@ -519,7 +326,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
+    check_elf_files: false, // TODO remove after libvndksupport issue is fixed
 }
 
 cc_library {
@@ -613,21 +420,45 @@ cc_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libui-v30",
+    name: "libui-v34",
     vendor: true,
     strip: {
         none: true,
     },
+    shared_libs: [
+        "android.hardware.graphics.common-V6-ndk",
+        "android.hardware.graphics.allocator-V2-ndk",
+        "android.hardware.graphics.allocator@2.0",
+        "android.hardware.graphics.allocator@3.0",
+        "android.hardware.graphics.allocator@4.0",
+        "android.hardware.graphics.common@1.2",
+        "android.hardware.graphics.mapper@2.0",
+        "android.hardware.graphics.mapper@2.1",
+        "android.hardware.graphics.mapper@3.0",
+        "android.hardware.graphics.mapper@4.0",
+        "libbase",
+        "libbinder_ndk",
+        "libcutils",
+        "libgralloctypes",
+        "libhidlbase",
+        "libsync",
+        "libutils",
+        "liblog",
+        "libvndksupport",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
     target: {
         android_arm: {
-            srcs: ["vndk/v30/arm/libui-v30.so"],
+            srcs: ["vndk/v34/arm/libui-v34.so"],
         },
         android_arm64: {
-            srcs: ["vndk/v30/arm64/libui-v30.so"],
+            srcs: ["vndk/v34/arm64/libui-v34.so"],
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -636,18 +467,23 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+        "libcutils",
+        "liblog",
+        "libprocessgroup",
+        "libprocessgroup_shim",
+        "libvndksupport",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v32/arm/libutils-v32.so"],
-            shared_libs: ["libprocessgroup_shim"],
         },
         android_arm64: {
             srcs: ["vndk/v32/arm64/libutils-v32.so"],
-            shared_libs: ["libprocessgroup_shim"],
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -656,6 +492,12 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+        "libcutils",
+        "liblog",
+        "libvndksupport",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v33/arm/libutils-v33.so"],
@@ -665,7 +507,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_library_shared {
@@ -751,6 +592,11 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+        "liblog",
+        "libz",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v29/arm/libprotobuf-cpp-full-v29.so"],
@@ -760,7 +606,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -769,6 +614,9 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v29/arm/libprotobuf-cpp-lite-v29.so"],
@@ -778,7 +626,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -788,6 +635,11 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+        "liblog",
+        "libz",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v29/arm/libprotobuf-cpp-full.so"],
@@ -797,7 +649,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -807,6 +658,9 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v29/arm/libprotobuf-cpp-lite.so"],
@@ -816,7 +670,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -825,6 +678,12 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    shared_libs: [
+        "libc++",
+        "libcutils",
+        "liblog",
+        "libutils",
+    ],
     target: {
         android_arm: {
             srcs: ["vndk/v33/arm/libstagefright_foundation-v33.so"],
@@ -834,5 +693,4 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
 }
